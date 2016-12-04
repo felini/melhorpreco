@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/matheus/dev/app-melhorpreco/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/matheus/dev/app-melhorpreco/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/matheus/dev/app-melhorpreco/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/icon_app.png",
+        "source": "/home/matheus/dev/app-melhorpreco/app/src/main/res/mipmap-xxhdpi/icon_app.png"
+    }
+]

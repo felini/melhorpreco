@@ -1,0 +1,7 @@
+#Sun Dec 04 18:44:29 BRST 2016
+base.0=/home/matheus/dev/app-melhorpreco/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_85f64fb5ab9265ac2e89ac739c96f7b8449bc7d4
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/matheus/dev/app-melhorpreco/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c0bcbd418e504d99c747d290220a070d5d80146b/classes.dex
+base.1=/home/matheus/dev/app-melhorpreco/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c0bcbd418e504d99c747d290220a070d5d80146b
+file.0=/home/matheus/dev/app-melhorpreco/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_85f64fb5ab9265ac2e89ac739c96f7b8449bc7d4/classes.dex

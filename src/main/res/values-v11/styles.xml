@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!--<style name="AppTheme"-->
+         <!--parent="@style/Theme.AppCompat.Light.DarkActionBar">-->
+    <!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
+<!---->
+     Support library compatibility
+    <!--<item name="actionBarStyle">@style/MyActionBar</item>-->
+  <!--</style>-->
+<!---->
+  <!--<style name="MyActionBar">-->
+    <!--<item name="android:background">@color/mp_red</item>-->
+  <!--</style>-->
+
+</resources>

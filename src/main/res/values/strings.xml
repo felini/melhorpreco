@@ -1,0 +1,90 @@
+<resources>
+  <string name="app_name">Melhor Preço</string>
+
+  <!-- MENUS -->
+  <string name="action_sobre">Sobre</string>
+  <string name="action_sair">Sair</string>
+
+  <!-- CAMPOS -->
+  <string name="primeiro_produto">Primeiro Produto</string>
+  <string name="valor_primeiro_produto">Valor do Primeiro Produto</string>
+
+  <string name="segundo_produto">Segundo Produto</string>
+  <string name="valor_segundo_produto">Valor do Segundo Produto</string>
+
+  <string name="hint_gramas_produto">qual a quantidade?</string>
+  <string name="hint_valor_produto">qual o valor?</string>
+
+  <!-- BOTOES -->
+  <string name="btn_calcular">Calcular</string>
+  <string name="btnLimpar">Limpar</string>
+
+
+  <!-- AVISOS -->
+  <string name="msg_produto_barato">"O %1$s produto é %2$.2f%% mais barato!"</string>
+  <string name="msg_produto_iguais">Os produtos possuem o mesmo valor!</string>
+  <string name="msg_produto_primeiro">PRIMEIRO</string>
+  <string name="msg_produto_segundo">SEGUNDO</string>
+  <string name="erro_quantidade_primeiro_produto">Informe a quantidade do primeiro produto.</string>
+  <string name="erro_valor_primeiro_produto">Informe o valor do primeiro produto.</string>
+  <string name="erro_quantidade_segundo_produto">Informe a quantidade do segundo produto.</string>
+  <string name="erro_valor_segundo_produto">Informe o valor do segundo produto.</string>
+  <string name="erro_unidade_medida">Selecione as unidades de medidas.</string>
+  <string name="title_activity_sobre">Melhor Preço - Sobre</string>
+  <string name="opcao_nao_encontrada">Opção não encontrada.</string>
+
+
+  <!-- ACTION COMO UTILIZAR -->
+  <string name="contato_email">mbfelini@gmail.com</string>
+  <string name="sobre_1">
+Tive a ideia de criar o aplicativo no momento em que estava com meu pai no mercado e ficamos em dúvida do que era mais vantajoso comprar. Um vidro de café ou o sashê para repor o vidro que já tinhamos.\n
+  </string>
+  <string name="sobre_2">
+Em alguns casos a decisão se torna simples, em outros nem tanto.\n
+  </string>
+  <string name="sobre_3">
+Imagine que tu estás no mercado comprando cerveja e não sabe o que é mais vantajoso levar entre uma Lata e LongNeck. Utilize o aplicativo, informe os mililitros de cada produto e seu valor para descobrir o que é mais vantajoso levar. ;)
+  </string>
+  <string name="sobre_4">Dúvida? Sugestão? Reclamação? Reportar erro?</string>
+
+  <!-- UNIDADES DE MEDIDA -->
+  <string-array name="unidades_medida">
+    <item>Selecione</item>
+    <item>Grama</item>
+    <item>Quilograma</item>
+    <item>Mililitro</item>
+    <item>Litro</item>
+    <item>Metros</item>
+    <item>Quilômetros</item>
+    <item>Unidade</item>
+    <item>Outro</item>
+  </string-array>
+
+  <string-array name="unidades_medida_selecione">
+    <item>Selecione</item>
+  </string-array>
+
+  <string-array name="unidades_medida_liquido">
+    <item id_item="3">Mililitro</item>
+    <item id_item="4">Litro</item>
+  </string-array>
+
+  <string-array name="unidades_medida_peso">
+    <item>Grama</item>
+    <item>Quilograma</item>
+  </string-array>
+
+  <string-array name="unidades_medida_distancia">
+    <item>Metros</item>
+    <item>Quilômetros</item>
+  </string-array>
+
+  <string-array name="unidades_medida_unidade">
+    <item>Unidade</item>
+  </string-array>
+
+  <string-array name="unidades_medida_outro">
+    <item value="5">Outro</item>
+  </string-array>
+
+</resources>

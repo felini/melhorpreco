@@ -1,0 +1,141 @@
+<ScrollView
+  android:layout_height="match_parent"
+  android:layout_width="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity"
+    android:weightSum="1"
+    >
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      android:text="@string/primeiro_produto"
+      />
+
+    <!-- PRIMEIRO PRODUTO -->
+    <android.support.v7.widget.GridLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+      <EditText
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editPrimeiroProduto"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal|number"
+        android:hint="@string/hint_gramas_produto"
+        app:layout_row="0"
+        app:layout_column="0"
+        />
+
+      <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnPrimeiroProduto"
+        app:layout_row="0"
+        app:layout_column="1"
+        />
+
+    </android.support.v7.widget.GridLayout>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      android:text="@string/valor_primeiro_produto"
+      />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/editValorPrimeiroProduto"
+      android:imeOptions="actionNext"
+      android:inputType="numberDecimal|number"
+      android:hint="@string/hint_valor_produto"
+      />
+
+    <!-- SEGUNDO PRODUTO -->
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      android:text="@string/segundo_produto"
+      android:paddingTop="10dp"
+      />
+
+    <android.support.v7.widget.GridLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+      <EditText
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editSegundoProduto"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal|number"
+        android:hint="@string/hint_gramas_produto"
+        app:layout_row="1"
+        app:layout_column="0"
+        />
+
+      <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnSegundoProduto"
+        app:layout_row="1"
+        app:layout_column="1"
+        />
+
+    </android.support.v7.widget.GridLayout>
+
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      android:text="@string/valor_segundo_produto"
+      />
+
+    <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/editValorSegundoProduto"
+      android:imeOptions="actionDone"
+      android:inputType="numberDecimal|number"
+      android:hint="@string/hint_valor_produto"
+      />
+
+    <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/btnCalcular"
+      android:onClick="getProdutoMaisBarato"
+      android:text="@string/btn_calcular"
+      />
+    <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/btnLimpar"
+      android:onClick="limparCampos"
+      android:text="@string/btnLimpar"
+      />
+
+  </LinearLayout>
+</ScrollView>

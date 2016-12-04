@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/matheus/dev/app-melhorpreco/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/home/matheus/dev/app-melhorpreco/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/matheus/dev/app-melhorpreco/app/build/intermediates/res/merged/debug/menu/menu_como_utilizar.xml",
+        "source": "/home/matheus/dev/app-melhorpreco/app/src/main/res/menu/menu_como_utilizar.xml"
+    },
+    {
+        "merged": "/home/matheus/dev/app-melhorpreco/app/build/intermediates/res/merged/debug/menu/menu_sobre.xml",
+        "source": "/home/matheus/dev/app-melhorpreco/app/src/main/res/menu/menu_sobre.xml"
+    }
+]
